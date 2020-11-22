@@ -737,6 +737,7 @@ ul.timeline{
 }
 
 .skill-list .progress {
+    content: attr(data-label);
     margin: 10px 0 20px;
     display: block;
     height: 5px;
